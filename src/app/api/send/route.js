@@ -32,7 +32,7 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
 const resend = new Resend("re_Wv8juWKM_21G9yC8P83zbCExCb8JrmdAC");
-const fromEmail = process.env.FROM_EMAIL;
+const toEmail = "emmanuelfasa@gmail.com";
 
 export async function POST(req, res) {
   const { email, subject, message } = await req.json();
@@ -40,7 +40,7 @@ export async function POST(req, res) {
   try {
     const data = await resend.emails.send({
       from: email, 
-      to: [fromEmail, 'emmanuelfasa@gmail.com'],
+      to: [toEmail],
       subject: subject,
       react: (
         <>
