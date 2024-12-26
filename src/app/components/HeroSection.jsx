@@ -24,9 +24,9 @@ const HeroSection = () => {
               sequence={[
                 "Emmanuel",
                 2000,
-                "Web Developer",
+                "React Native Developer",
                 2000,
-                "AWS DevOps",
+                "Front End",
                 2000,
                 
               ]}
@@ -36,7 +36,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Delivering Excellence Across the Stack: Frontend Prowess & DevOps Mastery.
+            Delivering Excellence Across the Stack: Cross-PlatForm Mobile Application Development.
           </p>
           <div>
             <Link
