@@ -9,12 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
-        <li>Docker</li>
+        <li>React Native</li>
+        <li>Cross-Platform-Development</li>
         <li>Git/GitHub</li>
-        <li>DevOps</li>
+        <li>API Integration</li>
+        <li>Expo</li>
         <li>JavaScript</li>
-        <li>AWS</li>
+        <li>Mobile App Development</li>
+        <li>Firebase</li>
       </ul>
     ),
   },
@@ -60,7 +62,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-           I&apos;m a dynamic Frontend Web Developer passionate about crafting engaging web experiences. Proficient in JavaScript, React, AWS, Docker, HTML, CSS, and Git/GitHub, blending technical expertise with creativity to deliver exceptional results. A quick learner and team player who thrives on collaboration and always eager in contributing to cutting-edge projects.
+          A skilled React Native developer specializing in cross-platform mobile app development with Expo and seamless API integrations. Dedicated to delivering user-friendly, high-performing applications that showcase clean code and innovative design. Check out my portfolio to see the results in action.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
