@@ -59,7 +59,7 @@ const EmailSection = () => {
           </Link>
         </div>
       </div>
-      <div>
+      <div className="flex justify-end items-center">
         {emailSubmitted ? (
           <p className="text-green-500 text-sm mt-2">Email sent successfully!</p>
         ) : (
@@ -80,12 +80,6 @@ const EmailSection = () => {
                 (+234) 8169891207
               </label>
             </div>
-            <div className="mb-6">
-              {/* Add any input elements or other content here if needed */}
-            </div>
-            <button type="submit" className="bg-primary-500 text-white py-2 px-4 rounded">
-              Send
-            </button>
           </form>
         )}
       </div>
