@@ -33,7 +33,7 @@ const projectsData = [
 {
     id: 3,
     title: "Restaurant Web",
-    description: "A React.js restaurant app which offers a visually appealing interface with key sections. It effectively communicates the restaurant's essence, location, and menu highlights, enticing visitors to explore further and potentially visit the establishment.",
+    description: "A React.js front-end restaurant app which offers a visually appealing interface with key sections. It effectively communicates the restaurant's essence, location, and menu highlights, enticing visitors to explore further and potentially visit the establishment.",
     image: "/images/newreest.png",
     tag: ["All", "Other"],
     gitUrl: "https://github.com/jezreelfasa/my_restaurant_web.git",
