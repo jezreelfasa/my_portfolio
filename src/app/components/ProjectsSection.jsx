@@ -9,8 +9,8 @@ const projectsData = [
   {
     id: 1,
     title: "Job Search App",
-    description: "This is a job search app built with react native, with login functionality using firebase as backend. API was also integrated in this app to fetch job search results real-time.",
-    image: "/images/num 4.png",
+    description: "This is a job search app built with react native, with signup and login functionality using firebase as backend. API was also integrated in this app to fetch job search results real-time.",
+    image: "/images/ap.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jezreelfasa/reacty-native_job_search_app.git",
     previewUrl: "https://expo.dev/preview/update?message=Job%20Search%20App%20built%20with%20react%20native&updateRuntimeVersion=1.0.0&createdAt=2024-12-25T15%3A16%3A59.705Z&slug=exp&projectId=2bb2ab32-d60c-403f-9d3f-0ec55642884a&group=60b4bd90-4f3a-48b8-b35c-ec10adea3a7f",
