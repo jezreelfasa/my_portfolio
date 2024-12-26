@@ -22,7 +22,7 @@ const projectsData = [
   {
     id: 2,
     title: "Todo App",
-    description: " Todo app built with react native, firebase as backend, login and signup functionality. User has options from the home screen to either go to the todo app or visit my github repo or just search for jobs with the job app I uilt.",
+    description: " Todo app built with react native, firebase as backend, login and signup functionality. User has options from the home screen to either go to the todo app or visit my github repo or just search for jobs with the job app I built.",
     image: "/images/native.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/jezreelfasa/native_Todo_App.git",
@@ -68,17 +68,7 @@ const ProjectsSection = () => {
           name="Web"
           isSelected={tag === "Web"}
         />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Task & Knowledge"
-          isSelected={tag === "Task & Knowledge"}
-        />
 
-        <ProjectTag
-          onClick={handleTagChange}
-          name="AWS DevOps"
-          isSelected={tag === "All"}
-        />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
