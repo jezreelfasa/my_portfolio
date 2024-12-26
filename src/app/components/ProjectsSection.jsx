@@ -11,7 +11,7 @@ const projectsData = [
     title: "Job Search App",
     description: "This is a job search app built with react native, with signup and login functionality using firebase as backend. API was also integrated in this app to fetch job search results real-time.",
     image: "/images/app1.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "https://github.com/jezreelfasa/reacty-native_job_search_app.git",
     previewUrl: "https://expo.dev/preview/update?message=Job%20Search%20App%20built%20with%20react%20native&updateRuntimeVersion=1.0.0&createdAt=2024-12-25T15%3A16%3A59.705Z&slug=exp&projectId=2bb2ab32-d60c-403f-9d3f-0ec55642884a&group=60b4bd90-4f3a-48b8-b35c-ec10adea3a7f",
 
@@ -24,12 +24,21 @@ const projectsData = [
     title: "Todo App",
     description: " Todo app built with react native, firebase as backend, login and signup functionality. User has options from the home screen to either go to the todo app or visit my github repo or just search for jobs with the job app I built.",
     image: "/images/native.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl: "https://github.com/jezreelfasa/native_Todo_App.git",
     previewUrl: "https://expo.dev/preview/update?message=Todo%20app%20(changes%20made%20to%20the%20_layout.js%20to%20make%20login%20initialRouteName&updateRuntimeVersion=1.0.0&createdAt=2024-12-24T21%3A15%3A10.431Z&slug=exp&projectId=b3dafa3b-0293-4a9b-ad58-98c761f7a771&group=bc7a5a6b-339f-4347-97b1-7641becc9c22",
   },
   
   
+{
+    id: 3,
+    title: "Restaurant Web",
+    description: "A React.js restaurant app which offers a visually appealing interface with key sections. It effectively communicates the restaurant's essence, location, and menu highlights, enticing visitors to explore further and potentially visit the establishment.",
+    image: "/images/newreest.png",
+    tag: ["All", "Other"],
+    gitUrl: "https://github.com/jezreelfasa/my_restaurant_web.git",
+    previewUrl: "https://my-restaurant-web.vercel.app",
+  },
   
   
 ];
@@ -65,8 +74,14 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
+        />
+
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Other"
+          isSelected={tag === "Other"}
         />
 
       </div>
